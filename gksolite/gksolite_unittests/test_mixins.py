@@ -36,7 +36,7 @@ class Mixin(object):
                     self.assertIsInstance(self.gol_cls(board), self.gol_cls)
 
         def test_add(self):
-            self.assertEqual(2+2, 6)
+            self.assertEqual(2+2, 4)
 
         def test_getitem(self):
             """fetch fields from board by gol[line][row]"""
